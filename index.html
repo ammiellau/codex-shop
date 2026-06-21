@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="山岚食集，以四季风物入馔的当代中式餐馆。">
+  <title>山岚食集 | 四季入馔</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="山岚食集首页">
+      <span class="brand-mark">山</span>
+      <span>山岚食集<small>SHANLAN KITCHEN</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="打开菜单" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="主导航">
+      <a href="#menu">当季菜单</a><a href="#story">我们的故事</a><a href="#visit">到店</a>
+      <button class="button button-small reserve-trigger">预订座位</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow light">当代中式 · 杭州</p>
+        <h1>山野有味，<br>四季入席。</h1>
+        <p class="hero-copy">从清晨的田野到夜晚的餐桌，我们用一餐饭，认真讲述中国风土的当代表达。</p>
+        <div class="hero-actions">
+          <button class="button reserve-trigger">即刻预订 <span>↗</span></button>
+          <a class="text-link" href="#menu">浏览菜单 <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-meta">
+        <span>杭州 · 北山路 28 号</span><i></i><span>午餐 11:30—14:00</span><span>晚餐 17:30—22:00</span>
+      </div>
+      <span class="hero-index">01</span>
+    </section>
+
+    <section class="intro section-pad">
+      <p class="eyebrow">今日山岚</p>
+      <div class="intro-grid">
+        <h2>不赶时髦，<br>只赶时节。</h2>
+        <div>
+          <p>我们相信，最好的滋味来自食材本身。每日清晨，主厨与本地农人、渔民确认当天收成，让菜单跟着季节缓慢变化。</p>
+          <a class="arrow-link" href="#story">了解山岚的厨房 <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-head">
+        <div><p class="eyebrow">时令精选</p><h2>本季菜单</h2></div>
+        <div class="filters" role="tablist" aria-label="菜单分类">
+          <button class="active" data-filter="all">推荐</button><button data-filter="cold">前菜</button><button data-filter="main">主菜</button><button data-filter="sweet">甜品</button>
+        </div>
+      </div>
+      <div class="dish-grid">
+        <article class="dish-card featured" data-category="main">
+          <div class="dish-photo crop-duck"><span>主厨推荐</span></div>
+          <div class="dish-info"><div><small>炭火 · 茶香</small><h3>龙井茶熏鸭</h3></div><strong>¥ 168</strong></div>
+          <p>十八小时风干，龙井茶与果木慢熏，佐春笋酱。</p>
+        </article>
+        <article class="dish-card" data-category="cold">
+          <div class="dish-photo crop-greens"></div>
+          <div class="dish-info"><div><small>清鲜 · 山野</small><h3>春日青蔬</h3></div><strong>¥ 58</strong></div>
+          <p>当日鲜蔬，山胡椒油，烘香芝麻。</p>
+        </article>
+        <article class="dish-card" data-category="main">
+          <div class="dish-photo crop-fish"></div>
+          <div class="dish-info"><div><small>江鲜 · 本味</small><h3>清蒸时令江鱼</h3></div><strong>时价</strong></div>
+          <p>本地日捕，陈年花雕，葱油豉香。</p>
+        </article>
+        <article class="dish-card" data-category="sweet">
+          <div class="dish-photo dessert"><span>每日限量</span></div>
+          <div class="dish-info"><div><small>桂香 · 轻甜</small><h3>桂花米酿</h3></div><strong>¥ 38</strong></div>
+          <p>酒酿冰酪、桂花蜜与脆米，清甜收尾。</p>
+        </article>
+      </div>
+      <a class="button button-outline" href="#visit">查看完整菜单 <span>→</span></a>
+    </section>
+
+    <section class="story" id="story">
+      <div class="story-visual"><span class="seal">山岚<br>二〇一九</span></div>
+      <div class="story-copy">
+        <p class="eyebrow light">一间认真做饭的小馆</p>
+        <h2>从土地出发，<br>回到人情。</h2>
+        <p>山岚食集创立于 2019 年。我们的厨房没有固定不变的菜谱，只有对时令、火候与手艺的长期尊重。</p>
+        <div class="stats"><div><strong>24</strong><span>位本地食材伙伴</span></div><div><strong>7</strong><span>年在地耕耘</span></div></div>
+      </div>
+    </section>
+
+    <section class="visit section-pad" id="visit">
+      <div><p class="eyebrow">来山岚坐坐</p><h2>留一席，<br>慢慢吃饭。</h2></div>
+      <div class="visit-details">
+        <div><span>地址</span><p>杭州市西湖区北山路 28 号<br>近断桥，步行约 6 分钟</p></div>
+        <div><span>营业时间</span><p>周二至周日<br>11:30—14:00 / 17:30—22:00</p></div>
+        <div><span>联系</span><p>0571 8866 1028<br>hello@shanlan.cn</p></div>
+      </div>
+      <button class="button reserve-trigger">预订座位 <span>↗</span></button>
+    </section>
+  </main>
+
+  <footer><div class="brand footer-brand"><span class="brand-mark">山</span><span>山岚食集<small>SHANLAN KITCHEN</small></span></div><p>春水煎茶，秋风佐酒，灶上汤正暖，窗边灯也为你留着。愿与家人好友围坐一桌，尝四时滋味，说寻常故事；不必赶路，只管把笑声留在杯盏之间。待夜色渐深，饭香仍在，愿这一餐的温暖陪你走过长街，也盼来日再见，仍如久别归家。</p><div><a href="#top">小红书</a><a href="#top">公众号</a><a href="#top">回到顶部 ↑</a></div></footer>
+
+  <dialog class="reservation-modal">
+    <button class="modal-close" aria-label="关闭">×</button>
+    <p class="eyebrow">预订座位</p><h2>期待与你见面哦哦哦哦</h2><p>选择用餐信息，我们会尽快电话确认。</p>
+    <form id="reservation-form">
+      <label>姓名<input required name="name" placeholder="如何称呼您"></label>
+      <label>手机<input required name="phone" type="tel" placeholder="联系电话"></label>
+      <div class="form-row"><label>日期<input required name="date" type="date"></label><label>人数<select name="guests"><option>2 位</option><option>3 位</option><option>4 位</option><option>5 位及以上</option></select></label></div>
+      <button class="button" type="submit">提交预订</button>
+    </form>
+    <div class="form-success" hidden><span>✓</span><h3>预订信息已收到</h3><p>我们会在营业时间内与您确认座位。</p></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
